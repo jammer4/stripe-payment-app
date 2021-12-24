@@ -1,7 +1,7 @@
 const express = require('express');
+require('dotenv').config();
 const stripe = require('stripe')(process.env.SECRET_KEY);
 const bodyParser = require('body-parser');
-const path = require('path');
 
 const app = express();
 
