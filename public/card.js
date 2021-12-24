@@ -1,4 +1,4 @@
-const stripe = Stripe(process.env.PUBLISHABLE_KEY);
+const stripe = Stripe('pk_test_51K84NDFuJ9aUVX9cV8RWNLbwfGNJp2jt1lx1yyCj7bpDuhP44Sp1JYe1Btwnd7nNGmOB23zJk7QT2KjAJF6boNvm00Ep3cvXQI');
 const elements = stripe.elements();
 
 let style = {
